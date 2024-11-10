@@ -7,7 +7,6 @@ import os
 import math
 
 MODEL_PATH = 'cnn_mnist_model.h5'
-st.set_page_config(layout="wide")
 
 # Load and preprocess data
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
